@@ -53,6 +53,7 @@ main img {
     float: right;
     margin-left: 16px;
     margin-bottom: 16px;
+    display: block;
 }
 
 footer {
