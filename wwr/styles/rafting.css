@@ -281,6 +281,30 @@ footer p {
   box-shadow: 0 2px 12px rgba(46,110,76,0.18);
 }
 
+body.contact-page main h1 {
+  position: static;       /* Quitar posicion absolute para que no se superponga */
+  margin: 3rem auto 2rem; /* Separación superior e inferior */
+  width: auto;
+  max-width: 840px;       /* Igual que main y footer */
+  padding: 0 1rem;        /* Padding lateral para pantallas pequeñas */
+  font-family: var(--heading-font);
+  font-size: 2.2rem;
+  color: var(--primary-color);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: transparent; /* Sin fondo */
+  opacity: 1;                     /* Sin transparencia */
+  z-index: auto;
+}
+
+.map-iframe {
+  border: 0;
+  width: 100%;
+  height: 330px; 
+}
+
+
 .contact-info {
   display: flex;
   justify-content: space-between;
