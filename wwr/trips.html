@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Trips & Pricing | Charrúa Adventure</title>
+  <meta name="description" content="Compare rafting trips, difficulty, duration, seasonal dates, and prices. Contact us to check availability.">
+  <meta name="author" content="Jonathan Mazzoli">
+  <link rel="stylesheet" href="styles/rafting.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container">
+    <div class="logo-box">
+      <a href="index.html"><img src="images/raftingsite.jpg" alt="Charrúa Adventure logo"></a>
+    </div>
+    <nav class="nav-box" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html" aria-current="page">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO Trips -->
+    <section class="hero hero-trips">
+      <img src="images/tripshero.jpg" alt="Raft dropping into a foamy rapid">
+      <h1>FIND YOUR PERFECT TRIP</h1>
+      <article>
+        <p>Pick your date and difficulty. Our guides handle the lines; you handle the high-fives.</p>
+        <p>
+          <a class="btn" href="contact.html">Check Availability</a>
+          <a class="btn" href="contact.html">Ask a Question</a>
+        </p>
+        <img src="images/tripsupport.jpg" alt="Guests listening to safety briefing at the put-in">
+      </article>
+    </section>
+
+    <!-- Trip cards -->
+    <section aria-labelledby="cards-title">
+      <h2 id="cards-title">Our Trips</h2>
+
+      <div class="trip-grid">
+        <article class="trip-card">
+          <img src="images/tripscard1.jpg" alt="Crew smiling on a calm bend">
+          <div class="trip-card__body">
+            <h3>Half Day Adventure <span class="badge badge--easy">Beginner</span></h3>
+            <p>Perfect for first-timers and families. Gentle wave trains, gorgeous scenery, and plenty of splashy fun.</p>
+            <ul class="trip-meta">
+              <li>Length: 3–4 hrs</li>
+              <li>Season: Sep–Apr</li>
+              <li>Typical Days: Tue, Thu, Sat</li>
+            </ul>
+            <p class="trip-price">$69</p>
+            <p><a class="btn btn-small" href="contact.html">Hold Seat</a></p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="images/tripscard2.jpg" alt="Canyon glow with moderate whitewater">
+          <div class="trip-card__body">
+            <h3>Golden Rapids <span class="badge badge--mod">Intermediate</span></h3>
+            <p>Longer lines and bigger waves. Ideal for adventurous paddlers who want both views and velocity.</p>
+            <ul class="trip-meta">
+              <li>Length: 5–6 hrs</li>
+              <li>Season: Sep–Apr</li>
+              <li>Typical Days: Fri–Sun</li>
+            </ul>
+            <p class="trip-price">$109</p>
+            <p><a class="btn btn-small" href="contact.html">Hold Seat</a></p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="images/tripscard3.jpg" alt="Bow diving into a standing wave">
+          <div class="trip-card__body">
+            <h3>Big Mallard <span class="badge badge--midHard">Interm./Advanced</span></h3>
+            <p>Stronger hydraulics and technical features. Expect teamwork, precise lines, and unforgettable splashes.</p>
+            <ul class="trip-meta">
+              <li>Length: Full day</li>
+              <li>Season: Oct–Mar</li>
+              <li>Typical: Weekends</li>
+            </ul>
+            <p class="trip-price">$149</p>
+            <p><a class="btn btn-small" href="contact.html">Hold Seat</a></p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="images/tripscard4.jpg" alt="Foamy lateral wave hitting the bow">
+          <div class="trip-card__body">
+            <h3>Red Thunder <span class="badge badge--hard">Advanced</span></h3>
+            <p>High-energy day with powerful rapids. For confident paddlers ready to push their limits.</p>
+            <ul class="trip-meta">
+              <li>Length: Full day</li>
+              <li>Season: Nov–Feb</li>
+              <li>Typical: Sat only</li>
+            </ul>
+            <p class="trip-price">$169</p>
+            <p><a class="btn btn-small" href="contact.html">Hold Seat</a></p>
+          </div>
+        </article>
+
+        <article class="trip-card">
+          <img src="images/tripscard5.jpg" alt="Technical narrow chute">
+          <div class="trip-card__body">
+            <h3>Los Dientes del Diablo <span class="badge badge--expert">Expert</span></h3>
+            <p>Limited-capacity run with tight lines and serious features. The most intense ride we offer.</p>
+            <ul class="trip-meta">
+              <li>Length: Full day+</li>
+              <li>Season: Jan–Feb</li>
+              <li>Capacity: Very limited</li>
+            </ul>
+            <p class="trip-price">$199</p>
+            <p><a class="btn btn-small" href="contact.html">Hold Seat</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tabla comparativa -->
+    <section aria-labelledby="table-title">
+      <h2 id="table-title">Compare Trips</h2>
+      <div class="table-wrapper">
+        <table class="table">
+          <caption class="visually-hidden">Trips compared by difficulty, length, schedule, and price</caption>
+          <thead>
+            <tr>
+              <th scope="col">Trip</th>
+              <th scope="col">Difficulty</th>
+              <th scope="col">Length</th>
+              <th scope="col">Dates</th>
+              <th scope="col">Price (USD)</th>
+              <th scope="col">Reserve</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Half Day Adventure</th>
+              <td>Beginner</td><td>3–4 hrs</td><td>Sep–Apr (Tue, Thu, Sat)</td><td>$69</td>
+              <td><a class="btn btn-small" href="contact.html">Hold Seat</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Golden Rapids</th>
+              <td>Intermediate</td><td>5–6 hrs</td><td>Sep–Apr (Fri–Sun)</td><td>$109</td>
+              <td><a class="btn btn-small" href="contact.html">Hold Seat</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Big Mallard</th>
+              <td>Interm./Adv.</td><td>Full day</td><td>Oct–Mar (Weekends)</td><td>$149</td>
+              <td><a class="btn btn-small" href="contact.html">Hold Seat</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Red Thunder</th>
+              <td>Advanced</td><td>Full day</td><td>Nov–Feb (Sat only)</td><td>$169</td>
+              <td><a class="btn btn-small" href="contact.html">Hold Seat</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Los Dientes del Diablo</th>
+              <td>Expert</td><td>Full day+</td><td>Jan–Feb (Limited)</td><td>$199</td>
+              <td><a class="btn btn-small" href="contact.html">Hold Seat</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- CTA final -->
+    <section class="cta-strip" aria-label="Contact call to action">
+      <p>Questions about dates, levels, or group rates?</p>
+      <p><a class="btn btn-light" href="contact.html">Contact Our Team</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2025 Charrúa Adventure Jonathan Mazzoli</p>
+    <nav class="socialmedia">
+      <a href="https://facebook.com"><img src="images/facebook_icon.svg" alt="Facebook icon"></a>
+      <a href="https://x.com"><img src="images/twitter_icon.svg" alt="X icon"></a>
+      <a href="https://instagram.com"><img src="images/instagram_icon.svg" alt="Instagram icon"></a>
+    </nav>
+    <p><a href="images/trips_wireframe.webp" target="_blank" rel="noopener noreferrer">View Trips Page Wireframe</a></p>
+  </footer>
+</body>
+</html>
